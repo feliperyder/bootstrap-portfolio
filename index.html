@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Felipe Ryder Porfolio - Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -40,20 +39,20 @@
 
   <main>
   <!-- display headings -->
-    <h1 class="display-1">Freelance Designer</h1>
+    <h1 class="display-1 p-3">Freelance Designer</h1>
 
       <!-- hero banner -->
     <img src="./assets/images/hero-banner.jpg" class="img-fluid" alt="Meet Felipe Ryder">
 
   <!-- about me -->
     <section id="about">
-      <h2 class="display-3">About Me</h2>
-          <p>I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
+      <h2 class="display-3 p-2">About Me</h2>
+          <p class="fs-4 p-3">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
     </section>
 
   <!-- my work -->
     <section id="work">
-      <h3 class="display-3">My Work</h3>
+      <h3 class="display-3 p-2">My Work</h3>
   <!-- work image carousel -->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
@@ -86,10 +85,10 @@
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">The project aim was to optimise and refactor existing codebase for improved performance, maintainability, and accessibility.</div>
-            <!-- Example single danger button -->
-<div class="btn-group">
+  <!-- Example dropdown button -->
+<div class="btn-group p-2">
   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    Project Links
+    Horiseon Project Links
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="#">Deployed application</a></li>
@@ -107,7 +106,7 @@
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body placeholder col-12"></div>
+            <div class="accordion-body placeholder col-6"></div>
           </div>
         </div>
         <div class="accordion-item">
@@ -117,7 +116,7 @@
             </button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body placeholder col-12"></div>
+            <div class="accordion-body placeholder col-6"></div>
           </div>
         </div>
       </div>
@@ -125,11 +124,13 @@
   </main>
 
   <!-- contact -->
-  <footer id="contact">
-      <h4 class="display-3">Contact Me</h4>
-            <a href="https://www.instagram.com/felipeloseshisflipflops">Instagram</a>
-            <a href="https://github.com/feliperyder">Github</a>
-            <a href="https://www.linkedin.com/in/feliperyder">LinkedIn</a>
+  <footer class="p-4" id="contact">
+      <h4 class="display-3 p-3 text-center">Contact Me</h4>
+      <section class="text-center">
+          <a href="https://www.instagram.com/felipeloseshisflipflops" class="p-3">Instagram</a>
+          <a href="https://github.com/feliperyder" class="p-3">Github</a>
+          <a href="https://www.linkedin.com/in/feliperyder" class="p-3">LinkedIn</a>
+      </section>
   </footer>
 </body>
 </html>
