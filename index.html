@@ -14,7 +14,7 @@
     <!-- nav bar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand">
           Felipe Ryder
           <img src="./assets/images/felipe-avatar.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
         </a>
@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link nav-special" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">My Work</a>
+              <a class="nav-link nav-special" href="#work">My Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">My Skills</a>
+              <a class="nav-link nav-special" href="#skills">My Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
+              <a class="nav-link nav-special" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -46,20 +46,20 @@
 
     <main>
       <!-- display headings -->
-      <h1 class="display-1 p-3">Freelance Designer</h1>
+      <h1 class="trendy-title">Freelance Designer</h1>
 
       <!-- hero banner -->
       <img src="./assets/images/hero-banner.jpg" class="img-fluid" alt="Meet Felipe Ryder">
 
       <!-- about me -->
       <section id="about">
-        <h2 class="display-3 p-2">About Me</h2>
-        <p class="fs-4 p-3">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
+        <h2 class=" p-4 display-6">About Me</h2>
+        <p class="mt-n1 fs-5 p-3">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
       </section>
 
       <!-- my work -->
       <section id="work">
-        <h3 class="display-3 p-2">My Work</h3>
+        <h3 class="text-center display-3 p-2">My <i>Work</i></h3>
         <!-- work image carousel -->
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
@@ -109,7 +109,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Placeholder One
+                Project One Placeholder 
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -119,7 +119,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Placeholder Two
+                Project Two Placeholder
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -130,7 +130,103 @@
       </section>
       <!-- my skills -->
       <section id="skills">
-        <h3 class="display-3 p-2">My Skills</h3>
+        <h3 class="text-center display-3 p-2">My <i>Skills</i></h3>
+
+         <!-- skill cards-->
+         <div class="container mt-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <!-- Card 1 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-one-banner.jpg" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">HTML is the markup language used to structure and create web content.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-two-banner.jpg" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">CSS enhances web pages with styles, making them visually appealing."</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-one-banner.jpg" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text">JavaScript adds interactivity and dynamic behavior to web pages.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 4 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-two-banner.jpg" class="card-img-top" alt="Image 4">
+                <div class="card-body">
+                  <h5 class="card-title">Responsive Web Design</h5>
+                  <p class="card-text">Responsive design ensures websites adapt to different devices and screen sizes.</p>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 5 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-one-banner.jpg" class="card-img-top" alt="Image 5">
+                <div class="card-body">
+                  <h5 class="card-title">Front-End Frameworks</h5>
+                  <p class="card-text">Such as; React streamlines UI development, while Bootstrap provides a CSS framework for responsive design.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/placeholder-two-banner.jpg" class="card-img-top" alt="Image 5">
+                <div class="card-body">
+                  <h5 class="card-title">GitBash</h5>
+                  <p class="card-text">Gitbash is a terminal for Git version control, enabling code collaboration."</p>
+                </div>
+              </div>
+            </div>
+
+                <!-- Card 7 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/images/placeholder-one-banner.jpg" class="card-img-top" alt="Image 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Version Control</h5>
+                      <p class="card-text">Version control tracks and manages changes in code, aiding collaboration and code history."</p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 8 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/images/placeholder-two-banner.jpg" class="card-img-top" alt="Image 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Development Tools</h5>
+                      <p class="card-text">Web development tools assist developers in designing, coding, and debugging websites.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        </section>
     </main>
 
 

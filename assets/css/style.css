@@ -4,6 +4,14 @@ a {
     text-decoration: none;
 }
 
+/* Nav links */
+a.nav-special:hover {
+    transform: scale(1.1);
+}
+a.nav-special {
+    transition: transform 0.2s ease-in-out;
+}
+
 /* Special links */
 a.special-link:hover {
     transform: scale(1.1);
@@ -23,3 +31,17 @@ a.special-link {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.mt-n1 {
+    margin-top: -1.5rem !important;
+  }
+
+  .trendy-title {
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 9vw;
+    line-height: 1.25em;
+    color: #231301;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
