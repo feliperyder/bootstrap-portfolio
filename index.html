@@ -1,136 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Felipe Ryder Porfolio - Bootstrap</title>
+    <title>Felipe Ryder Portfolio - Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-</html>
-
-<body>
-  <!-- nav bar-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Felipe Ryder</a>
+  <body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          Felipe Ryder
           <img src="./assets/images/felipe-avatar.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
-  <!-- toggle button for mobile nav -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  <!-- navbar links -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">My Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        </a>
+        
+        <!-- toggle button for mobile nav -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <main>
-  <!-- display headings -->
-    <h1 class="display-1 p-3">Freelance Designer</h1>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- display headings -->
+      <h1 class="display-1 p-3">Freelance Designer</h1>
 
       <!-- hero banner -->
-    <img src="./assets/images/hero-banner.jpg" class="img-fluid" alt="Meet Felipe Ryder">
+      <img src="./assets/images/hero-banner.jpg" class="img-fluid" alt="Meet Felipe Ryder">
 
-  <!-- about me -->
-    <section id="about">
-      <h2 class="display-3 p-2">About Me</h2>
-          <p class="fs-4 p-3">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
-    </section>
+      <!-- about me -->
+      <section id="about">
+        <h2 class="display-3 p-2">About Me</h2>
+        <p class="fs-4 p-3">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</p>
+      </section>
 
-  <!-- my work -->
-    <section id="work">
-      <h3 class="display-3 p-2">My Work</h3>
-  <!-- work image carousel -->
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/images/horiseon-banner.jpg" class="d-block w-100" alt="...">
+      <!-- my work -->
+      <section id="work">
+        <h3 class="display-3 p-2">My Work</h3>
+        <!-- work image carousel -->
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/horiseon-banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/placeholder-one-banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/placeholder-two-banner.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/images/placeholder-one-banner.jpg" class="d-block w-100" alt="...">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- work accordion -->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Horiseon
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The project aim was to optimize and refactor the existing codebase for improved performance, maintainability, and accessibility.</div>
+              <!-- project dropdown button -->
+              <div class="btn-group p-2">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Horiseon Project Links
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Deployed application</a></li>
+                  <li><a class="dropdown-item" href="#">GitHub repo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Project README</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/images/placeholder-two-banner.jpg" class="d-block w-100" alt="...">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Placeholder One
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body placeholder col-6"></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Placeholder Two
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body placeholder col-6"></div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-  <!-- work accordion -->
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Horiseon
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">The project aim was to optimise and refactor existing codebase for improved performance, maintainability, and accessibility.</div>
-  <!-- Example dropdown button -->
-<div class="btn-group p-2">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    Horiseon Project Links
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Deployed application</a></li>
-    <li><a class="dropdown-item" href="#">Github repo</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Project README</li>
-  </ul>
-</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Placeholder One
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body placeholder col-6"></div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Placeholder Two
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body placeholder col-6"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+      </section>
+      <!-- my skills -->
+      <section id="skills">
+        <h3 class="display-3 p-2">My Skills</h3>
+    </main>
 
-  <!-- contact -->
-  <footer class="p-4" id="contact">
+
+
+    <!-- contact -->
+    <footer class="p-4" id="contact">
       <h4 class="display-3 p-3 text-center">Contact Me</h4>
       <section class="text-center">
-          <a href="https://www.instagram.com/felipeloseshisflipflops" class="p-3">Instagram</a>
-          <a href="https://github.com/feliperyder" class="p-3">Github</a>
-          <a href="https://www.linkedin.com/in/feliperyder" class="p-3">LinkedIn</a>
+        <a href="https://www.instagram.com/felipeloseshisflipflops" class="special-link fab fa-instagram p-3"> Instagram</a>
+        <a href="https://github.com/feliperyder" class="special-link p-3 fab fa-github"> Github</a>
+        <a href="https://www.linkedin.com/in/feliperyder" class="special-link p-3 fab fa-linkedin"> LinkedIn</a>
       </section>
+
+    <!-- Scroll to top button -->
+    <button id="back-to-top" class="btn btn-primary btn-lg" title="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <style>
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+    </style>
+    
+    <script>
+        $(document).ready(function () {
+            // Show or hide the button based on the scroll position
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+    
+            // Scroll to the top when the button is clicked
+            $('#back-to-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+        });
+    </script>
+    
   </footer>
 </body>
 </html>

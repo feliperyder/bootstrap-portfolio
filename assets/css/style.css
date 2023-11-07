@@ -1,0 +1,25 @@
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Special links */
+a.special-link:hover {
+    transform: scale(1.1);
+}
+
+a.special-link {
+    transition: transform 0.2s ease-in-out;
+}
+
+a.special-link {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a.special-link {
+    background: linear-gradient(45deg, #ff0066, #33ccff);
+    background-clip: text; /* Text gradient effect */
+    -webkit-background-clip: text;
+    color: transparent;
+}
