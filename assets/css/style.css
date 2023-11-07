@@ -3,9 +3,10 @@
 a {
     transition: all 0.2s; /* Add a smooth transition */
     font-weight: normal; /* Set the default font weight */
+    text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     font-weight: bold; /* Change font weight on hover */
     transform: scale(1.05); /* Increase size on hover */
     transform: rotate(3deg); /* Rotate the text on hover */
@@ -20,17 +21,10 @@ a {
     box-shadow: 2px 2px 5px #888888; /* Customize the box shadow as needed */
 }
 
-/* Remove underline from links */
-a {
-    text-decoration: none;
-}
-
 /* Special links */
 a.special-link {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-a.special-link {
-    background: linear-gradient(45deg, #ff0066, #33ccff);
+    background: linear-gradient(45deg, #d57b05, rgb(5, 96, 22));
     background-clip: text; /* Text gradient effect */
     -webkit-background-clip: text;
     color: transparent;
@@ -41,16 +35,16 @@ a.special-link {
     margin-top: -1.5rem !important;
 }
 
-/* Trendy title */
-    .trendy-title {
-        font-family: 'Yeseva One', sans-serif;
-        font-size: 9vw;
-        line-height: 1.25em;
-        color: rgb(0, 0, 0);
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
+/* Profession title */
+.profession {
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 9vw;
+    line-height: 1.25em;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /* About text */
 .highlight {
@@ -65,4 +59,12 @@ a.special-link {
     padding: 10px;
     border-radius: 50%; /* Makes the frame oval */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+}
+
+/* Back to top button*/
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }

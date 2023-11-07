@@ -18,7 +18,7 @@
         <!-- Jumbotron-->
         <h1 class="navbar-brand">
           Felipe Ryder
-          <img src="./assets/images/felipe-avatar.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
+          <img src="./assets/images/felipe-avatar.png" alt="Felipe Avatar" width="60" height="60" class="d-inline-block align-text-center">
         </h1>
         <!-- toggle button for mobile nav -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,22 +46,22 @@
 
     <main>
       <!-- display headings -->
-      <h1 class="trendy-title">Freelance Designer</h1>
+      <h1 class="profession">Freelance Designer</h1>
 
       <!-- hero banner/ carousel-->
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/images/hero-banner.jpg" class="d-block w-100" alt="...">
+              <img src="./assets/images/hero-banner.jpg" class="d-block w-100" alt="Site hero banner">
             </div>
             <div class="carousel-item">
-              <img src="./assets/images/horiseon-banner.jpg" class="d-block w-100" alt="...">
+              <img src="./assets/images/horiseon-banner.jpg" class="d-block w-100" alt="Horiseon project banner">
             </div>
             <div class="carousel-item">
-              <img src="./assets/images/eden-banner.jpg" class="d-block w-100" alt="...">
+              <img src="./assets/images/eden-banner.jpg" class="d-block w-100" alt="Eden portfolio project banner">
             </div>
             <div class="carousel-item">
-              <img src="https://placehold.co/1200x400" class="d-block w-100" alt="...">
+              <img src="https://placehold.co/1200x400" class="d-block w-100" alt="Placeholder banner">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -79,12 +79,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-9">
-            <h2 class="highlight p-3 display-6"><Span style="background-color: black;"><i>About me</i></Span></h2>
+            <h2 class="highlight p-3 display-6"><Span style="background-color: black;"><em>About Me</em></Span></h2>
             <p class="highlight mt-n1 fs-5 p-3"><Span style="background-color: black;">I've got the magic touch when it comes to helping agencies and brands turn their concepts into stunning designs. I'm all about top-notch designs and a solid freelance partnership.</Span></p>
           </div>
           <!-- Contact Button -->
           <div class="col-md-3 text-center">
-            <img src="./assets/images/felipe-avatar2.jpg" alt="Logo" width="180" height="180" class="d-inline-block align-text-center custom-frame">
+            <img src="./assets/images/felipe-avatar2.jpg" alt="Felipe headshot" width="180" height="180" class="d-inline-block align-text-center custom-frame">
             <button type="button" class="btn btn-primary p-3 m-3" data-bs-toggle="modal" data-bs-target="#contactModal">
               Contact Me
             </button>
@@ -112,14 +112,14 @@
 
     <!-- my work -->
     <section id="work">
-      <h3 class="text-center display-3 p-2">My <i>Work</i></h3>
+      <h3 class="text-center display-3 p-2">My <em>Work</em></h3>
       <!-- project cards-->
       <div class="container mt-5">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <!-- Card 1 -->
         <div class="col">
           <div class="card">
-            <img src="./assets/images/horiseon-banner.jpg" class="card-img-top" alt="Image 1">
+            <img src="./assets/images/horiseon-banner.jpg" class="card-img-top" alt="Horiseon banner">
             <div class="card-body">
               <h5 class="card-title">Horiseon</h5>
               <p class="card-text">The project aim was to optimize and refactor the existing codebase for improved performance, maintainability, and accessibility.</p>
@@ -141,7 +141,7 @@
         <!-- Card 2 -->
         <div class="col">
           <div class="card">
-            <img src="./assets/images/eden-banner.jpg" class="card-img-top" alt="Image 1">
+            <img src="./assets/images/eden-banner.jpg" class="card-img-top" alt="Eden portfolio banner">
             <div class="card-body">
               <h5 class="card-title">Eden Portfolio</h5>
               <p class="card-text">A portfolio page to showcase my skills, talents and deployed projects to potential employers.</p>
@@ -163,7 +163,7 @@
         <!-- Card 3 -->
         <div class="col">
           <div class="card">
-            <img src="https://placehold.co/1200x400" class="card-img-top" alt="Image 3">
+            <img src="https://placehold.co/1200x400" class="card-img-top" alt="Placeholder banner">
             <div class="card-body">
               <h5 class="card-title">Project 3</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie neque id auctor mattis. Mauris non nunc gravida, fringilla est.</p>
@@ -175,7 +175,7 @@
 
     <!-- my skills -->
     <section class="p-5" id="skills">
-      <h3 class="text-center display-3 p-2">My <i>Skills</i></h3>
+      <h3 class="text-center display-3 p-2">My <em>Skills</em></h3>
       <!-- skills accordion -->
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <!-- skill 1 -->
@@ -284,14 +284,6 @@
     <button id="back-to-top" class="btn btn-primary btn-lg" title="Back to Top">
       <i class="fas fa-arrow-up"></i>
     </button>
-    <style>
-        #back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-        }
-    </style>
     <script>
         $(document).ready(function () {
             // Show or hide the button based on the scroll position
@@ -302,7 +294,6 @@
                     $('#back-to-top').fadeOut();
                 }
             });
-    
             // Scroll to the top when the button is clicked
             $('#back-to-top').click(function () {
                 $('html, body').animate({ scrollTop: 0 }, 800);
