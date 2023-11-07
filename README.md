@@ -25,7 +25,7 @@ https://feliperyder.github.io/bootstrap-portfolio/
 2. **Navigating the Page:** This is a one page website, use the navicational links in the header banner to scroll to the linked section.
 
 3. Screenshot
-![](/assets/bootstrap-portfolio-screenshot.jpg)
+![](./assets/bootstrap-portfolio-screenshot.jpg)
 
 ## Credits
 
