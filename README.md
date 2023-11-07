@@ -25,30 +25,23 @@ https://feliperyder.github.io/bootstrap-portfolio/
 2. **Navigating the Page:** This is a one page website, use the navicational links in the header banner to scroll to the linked section.
 
 3. Screenshot
-![](MISSING)
+![](/assets/bootstrap-portfolio-screenshot.jpg)
 
 ## Credits
 
-Prework:Enabling Github Pages
-https://www.youtube.com/watch?v=P4Mu1t5rIXg
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-Semantic HTML
-https://www.w3schools.com/html/html5_semantic_elements.asp
+- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
 
-Image ‘alt’ attributes
-https://www.w3schools.com/tags/att_img_alt.asp
+- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
 
-CSS Styling
-https://www.w3schools.com/css/css3_images.asp
+- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-CSS Media Queries
-https://www.w3schools.com/css/css3_mediaqueries.asp
+- [Github Pages Guide](https://pages.github.com/)
 
-Technologies Used: HTML, CSS,
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
-  <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
-  <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
-</svg> Bootstrap
+- [How to create a scroll to top button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+
+- Technologies Used: HTML, CSS & Bootstrap
 
 ## License
 
@@ -77,3 +70,4 @@ SOFTWARE.
 ## Badges
 
 ![GitHub](https://img.shields.io/github/license/feliperyder/horiseon)
+
